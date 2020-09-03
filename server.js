@@ -44,7 +44,7 @@ app.use((req, res, next) => {
 
 app.use(bodyParser.json());
 
-app.get("/", (req, res) => {
+app.post("/", (req, res) => {
     extract(req.body.slipNumber).then(result => {
         res.send(result);
     }).catch(e => {
