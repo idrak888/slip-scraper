@@ -14,5 +14,8 @@
     "chromium": "^3.0.2",
     "express": "^4.17.1",
     "puppeteer": "^5.2.1"
+  },
+  "engines": {
+    "node": "v12.18.3"
   }
 }
